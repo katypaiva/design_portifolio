@@ -1,0 +1,26 @@
+@media only screen and (max-width: 480px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: #FFFFFF;
+        font-family: Lato;
+        color: black;
+    }
+
+    .contactsection{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 2%;
+    }
+
+    .aaa {
+        margin-top: 32px; 
+        width: 70%;
+        height: 0px;
+        border: 1px solid #CDCDCD;
+    }
+
+}
