@@ -1,0 +1,10 @@
+@media only screen and (max-width: 480px) {
+
+    h2 {
+        font-size: 56px;
+        line-height: 67px;
+        color: #28282A;
+        border-bottom: 1px solid #28282A;
+        padding-bottom: 16px;
+    }
+}

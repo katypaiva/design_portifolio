@@ -1,26 +1,36 @@
-@media only screen and (max-width: 480px) {
-    body {
+ @media only screen and (max-width: 600px) {
+   
+    .title {
+        font-style: normal;
+        text-align: center;
+        font-weight: 800;
+        font-size: 64px;
+        line-height: 76px;
+        color: #28282A;
+        font-family: -apple-system, system-ui, BlinkMacSystemFont;
+        width: 100%;
+    }
+
+    .div-mobile {
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        background: #FFFFFF;
-        font-family: Lato;
-        color: black;
     }
 
-    .contactsection{
-        display: flex;
-        justify-content: space-between;
-        padding-left: 4%;
-        padding-right: 4%;
-        padding-top: 2%;
+    .img-mobile {
+        width: 100%;
     }
 
-    .aaa {
-        margin-top: 32px; 
-        width: 70%;
-        height: 0px;
-        border: 1px solid #CDCDCD;
-    }
-
+} 
+* {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #EDEAE4;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont;
+    color: #28282A;
+}
+

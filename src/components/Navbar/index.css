@@ -1,0 +1,45 @@
+@media only screen and (max-width: 600px) {
+
+    .p-location{
+        display:none;
+    }
+
+    .links-container {
+        display: none;
+    }
+
+    .menu-button {
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+
+    .img-btn {
+        height: 24px;
+        width: 24px;
+    }
+
+    .container {
+        padding: 16px;
+        margin-top: 16px;
+    }
+ 
+}
+
+body {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont;
+}
+
+.p-name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #181818;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
