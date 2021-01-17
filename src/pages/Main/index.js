@@ -1,9 +1,10 @@
 import React from 'react';
-import Intro from '../../components/Intro/index';
 import Card from '../../components/Card/index';
 import Information from '../../components/Information/index';
 import Navbar from '../../components/Navbar/index';
 import Articles from '../../components/Articles/index';
+import Projects from '../../components/Projects/index';
+import Contact from '../../components/Contact/index';
 import './index.css';
 
 function Main () {
@@ -16,6 +17,8 @@ function Main () {
             </div>
             <Information />
             <Articles />
+            <Projects />
+            <Contact />
         </div>
     )
 }

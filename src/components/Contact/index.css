@@ -1,0 +1,54 @@
+@media only screen and (max-width: 600px) {
+    .contact-container {
+        width: 100%;
+        height: 330px;
+        margin-top: 64px;
+        background: #F72557;
+        padding-top: 72px;
+        padding-left: 26px;
+    }
+
+    .contact-p {
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+
+    .p-info {
+        font-size: 48px;
+        line-height: 57px;
+    }
+
+    .p-under-info {
+        font-size: 24px;
+        line-height: 29px;
+        margin-top: 8px;
+    }
+
+    .form-contact {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 48px;
+        width: 76%;
+        border-bottom: 2px solid #fff;
+    }
+
+    .form-contact>input {
+        outline: none;
+        background-color: transparent;
+        border: none;
+        width: 70%;
+    }
+
+    .form-contact>input::placeholder {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FF98B1;
+    }
+
+    .form-contact>button {
+        outline: none;
+        background-color: transparent;
+        border: none;
+    }
+}
