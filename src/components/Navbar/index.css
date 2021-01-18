@@ -4,39 +4,109 @@
         display:none;
     }
 
-    .links-container {
-        display: none;
+    .p-name {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #181818;
     }
 
     .menu-button {
-        border: none;
+        position: absolute;
+        right: 16px;
+        cursor: pointer;
         outline: none;
-        background-color: transparent;
+        border-radius: 100px;
+        box-shadow: 0 0 0 0 transparent, 0 0 0 transparent;
+        transition: box-shadow 0.8s cubic-bezier(0.19, 1, 0.22, 1);
     }
 
-    .img-btn {
-        height: 24px;
-        width: 24px;
+    #check {
+        display: none;
     }
+
+    .menu-button:hover {
+        box-shadow: 0 0 0 0px #000, 0 0 0 0px #000;
+    }
+
+    input:checked ~ label .menu-button {
+        box-shadow: 0 0 0 130vw #000, 0 0 0 130vh #000;
+        background-color: #000;
+        overflow: hidden;
+      }
+
+      input:checked ~ label .change-svg {
+        fill: #fff;
+      }
+
+      input:checked ~ label .change-svg {
+        fill: #fff;
+      }
+
+    input:checked ~ ul {
+        opacity: 1;
+        display: block;
+      } 
+
+    ul {
+        position: absolute;
+        padding:16px;
+        padding-top: 10px;
+        display: none;
+        list-style: none;
+        font-size: 45px;
+        opacity: 0;
+        transition: 0.1s 0.1s cubic-bezier(0, -15.07, 0, -15.02);
+        z-index: 2;
+    }
+    ul>li>a {
+        font-size: 64px;
+        line-height: 76px;
+        color: #FFF;
+    }
+
+    .about-href {
+        color: #FF003D;
+    }
+
+    .article-href {
+        margin-left: 15%;
+    }
+
+    .contact-href {
+        margin-left: 27%;
+    }
+
+    .name-small {
+        color: #fff;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        left: 16px;
+    }
+
+    .name-big {
+        color:#fff;
+        margin-top: 32px;
+        font-weight: 800;
+        line-height: 78px;
+        font-size: 56px;
+        text-align: center;
+    }
+
 
     .container {
         padding: 16px;
         margin-top: 16px;
     }
- 
 }
 
 body {
     font-family: -apple-system, system-ui, BlinkMacSystemFont;
 }
 
-.p-name {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    text-transform: uppercase;
-    color: #181818;
-}
 
 .container {
     display: flex;
