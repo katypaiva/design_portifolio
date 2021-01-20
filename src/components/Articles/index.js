@@ -2,9 +2,9 @@ import React from 'react';
 import H2 from '../H2/index'
 import './index.css';
 
-export default function Articles() {
+export default function Articles(props) {
     return (
-        <div className="div-article">
+        <div className="div-article" id={props.id}>
             <H2 name={"Artigos"} />
             <p className="text-bio">Gosto de escrever por ser a maneira mais democrática de expor minha visão sobre aspectos diferentes do mercado e sobre Design como disciplina. Escrevo sobre o que vivo.</p>
             <p className="links"><a href="https://brasil.uxdesign.cc/se-a-vida-te-der-limões-não-faça-uma-limonada-f0345844b38" target="_blank">Se a vida te der limões não faça uma limonada</a></p>

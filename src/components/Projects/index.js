@@ -2,7 +2,7 @@ import React from 'react';
 import H2 from '../H2/index'
 import './index.css';
 
-export default function Projects() {
+export default function Projects(props) {
 
     const arr = [
                     {
@@ -32,7 +32,7 @@ export default function Projects() {
                 ]
     
     return (
-        <div className="project-container">
+        <div className="project-container" id={props.id}>
                 <H2 name={"Projetos"} />
                         {arr.map(item => { 
                             return (

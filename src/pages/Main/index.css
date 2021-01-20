@@ -20,7 +20,8 @@
         width: 100%;
     }
 
-} 
+}
+
 * {
     font-family: -apple-system, system-ui, BlinkMacSystemFont;
 }
@@ -32,5 +33,31 @@ body {
     background: #EDEAE4;
     font-family: -apple-system, system-ui, BlinkMacSystemFont;
     color: #28282A;
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 1366px)  {
+    .div-mobile{
+        display: none;
+    }
+
+
+    .div-desktop-m {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .img-desktop-m {
+        width: 100%;
+    }
+
+    .title {
+        font-weight: 800;
+        font-size:237px;
+        line-height: 283px;
+        text-align: center;
+        color: #28282A;
+        margin-top: 35px;
+    }
 }
 
