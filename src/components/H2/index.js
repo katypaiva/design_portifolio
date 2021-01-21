@@ -4,7 +4,7 @@ import './index.css'
 function H2 (props) {
     return (
         <div>
-            <h2>{props.name}</h2>
+            <h2 className={props.className}>{props.name}</h2>
         </div>
         
     )

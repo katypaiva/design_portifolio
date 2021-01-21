@@ -8,3 +8,14 @@
         padding-bottom: 16px;
     }
 }
+
+@media only screen and (min-width: 601px) and (max-width: 1366px)  {
+    
+    h2 {
+        font-size: 88px;
+        line-height: 105px;
+        color: #28282A;
+        border-bottom: 1px solid #28282A;
+        padding-bottom: 16px;
+    }
+}

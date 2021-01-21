@@ -34,7 +34,40 @@
         line-height: 24px;
         color: #28282A;
         margin-top: 21px;
+    } 
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1366px)  {
+    * {
+        margin: 0px;
+        padding: 0px;
     }
 
- 
+    .project-container {
+        margin-top: 160px;
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+
+    .div-list {
+        display: flex;
+        padding-bottom: 24px;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 40px;
+
+    }
+
+    .display-project {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .div-list>div>p {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 33px;
+        color: #28282A;
+    }
 }

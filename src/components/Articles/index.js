@@ -3,18 +3,54 @@ import H2 from '../H2/index'
 import './index.css';
 
 export default function Articles(props) {
+
+    const arrAticles = [
+        {
+            title: "Se a vida te der limões não faça uma limonada", 
+            link: "https://brasil.uxdesign.cc/se-a-vida-te-der-limões-não-faça-uma-limonada-f0345844b38",
+            year: "2020"
+        }, 
+        {
+            title: "Como é ser designer preto", 
+            link: "https://brasil.uxdesign.cc/como-é-ser-designer-preto-c2bf286a8eae",
+            year: "2019"
+        },
+        {
+            title: "Seu produto é honesto com o usuário?", 
+            link: "https://www.design2020.com.br/artigos/seu-produto-e-honesto-com-o-usuario",
+            year: "2019"
+        },
+        {
+            title: "Designers precisam aprender design", 
+            link: "https://brasil.uxdesign.cc/designers-precisam-aprender-design-6b57340e0de0",
+            year: "2019"
+        },
+        {
+            title: "Meu primeiro ano como designer de interfaces", 
+            link: "https://brasil.uxdesign.cc/a-cultura-de-menosprezo-ao-ui-designer-5ffc5f35e41",
+            year: "2018"
+        },
+    ]
+
     return (
         <div className="div-article" id={props.id}>
             <H2 name={"Artigos"} />
-            <p className="text-bio">Gosto de escrever por ser a maneira mais democrática de expor minha visão sobre aspectos diferentes do mercado e sobre Design como disciplina. Escrevo sobre o que vivo.</p>
-            <p className="links"><a href="https://brasil.uxdesign.cc/se-a-vida-te-der-limões-não-faça-uma-limonada-f0345844b38" target="_blank">Se a vida te der limões não faça uma limonada</a></p>
-            <p className="links"><a href="https://brasil.uxdesign.cc/como-é-ser-designer-preto-c2bf286a8eae" target="_blank">Como é ser designer preto</a></p>
-            <p className="links"><a href="https://www.design2020.com.br/artigos/seu-produto-e-honesto-com-o-usuario" target="_blank">Seu produto é honesto com o usuário?</a></p>
-            <p className="links"><a href="https://brasil.uxdesign.cc/designers-precisam-aprender-design-6b57340e0de0" target="_blank">Designers precisam aprender design</a></p>
-            <p className="links"><a href="https://brasil.uxdesign.cc/a-cultura-de-menosprezo-ao-ui-designer-5ffc5f35e41" target="_blank">Meu primeiro ano como designer de interfaces</a></p>
-            <form action="https://medium.com/@iamflaviopires">
-                <input className="medium-btn" type="submit" value="Ver perfil no medium" />
-            </form>
+            <div className="display">
+                <div>
+                    <p className="text-bio font-article">Gosto de escrever por ser a maneira mais democrática de expor minha visão sobre aspectos diferentes do mercado e sobre Design como disciplina. Escrevo sobre o que vivo.</p>
+                    {arrAticles.map(item => {
+                        return(
+                            <div className="display data-div">
+                                <a className="link font-article" href={item.link} target="_blank">{item.title}</a>
+                                <p className="mobile-disable font-article">{item.year}</p>
+                            </div>
+                        )
+                    })}
+                </div>
+                <a href="https://medium.com/@iamflaviopires" target="_blank">
+                    <button className="medium-btn">Ver perfil no medium</button>
+                </a>
+            </div>
         </div>
     )
     
