@@ -1,30 +1,6 @@
- @media only screen and (max-width: 600px) {
-   
-    .title {
-        font-style: normal;
-        text-align: center;
-        font-weight: 800;
-        font-size: 64px;
-        line-height: 76px;
-        color: #28282A;
-        font-family: -apple-system, system-ui, BlinkMacSystemFont;
-        width: 100%;
-    }
-
-    .div-mobile {
-        display: flex;
-        justify-content: center;
-    }
-
-    .img-mobile {
-        width: 100%;
-    }
-
-}
-
 * {
     font-family: -apple-system, system-ui, BlinkMacSystemFont;
-}
+} 
 
 body {
     display: flex;
@@ -35,9 +11,126 @@ body {
     color: #28282A;
 }
 
+@media only screen and (max-width: 350px) {
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+   
+    .title {
+        font-style: normal;
+        text-align: center;
+        font-weight: 800;
+        font-size: 56px;
+        line-height: 76px;
+        color: #28282A;
+        font-family: -apple-system, system-ui, BlinkMacSystemFont;
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    .div-mobile {
+        display: flex;
+        justify-content: center;
+    }
+
+    .div-desktop-m {
+        display: none;
+    }
+
+    .div-desktop-l {
+        display: none;
+    }
+
+    .img-mobile {
+        width: 100%;
+    }
+
+}
+ 
+@media only screen and (min-width: 351px) and (max-width: 400px) {
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+   
+    .title {
+        font-style: normal;
+        text-align: center;
+        font-weight: 800;
+        font-size: 64px;
+        line-height: 76px;
+        color: #28282A;
+        font-family: -apple-system, system-ui, BlinkMacSystemFont;
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    .div-mobile {
+        display: flex;
+        justify-content: center;
+    }
+
+    .div-desktop-m {
+        display: none;
+    }
+
+    .div-desktop-l {
+        display: none;
+    }
+
+    .img-mobile {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+   
+    .title {
+        font-style: normal;
+        text-align: center;
+        font-weight: 800;
+        font-size: 72px;
+        line-height: 76px;
+        color: #28282A;
+        font-family: -apple-system, system-ui, BlinkMacSystemFont;
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    .div-mobile {
+        display: flex;
+        justify-content: center;
+    }
+
+    .div-desktop-m {
+        display: none;
+    }
+
+    .div-desktop-l {
+        display: none;
+    }
+
+    .img-mobile {
+        width: 100%;
+    }
+
+}
 
 @media only screen and (min-width: 600px) and (max-width: 1366px)  {
     .div-mobile{
+        display: none;
+    }
+
+    .div-desktop-l {
         display: none;
     }
 
@@ -58,6 +151,35 @@ body {
         text-align: center;
         color: #28282A;
         margin-top: 35px;
+    }
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1900px) {
+
+    .title{
+        font-weight: 800;
+        font-size: 280px;
+        line-height: 280px;
+        color: #28282A;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .div-mobile{
+        display: none;
+    }
+    .div-desktop-m {
+        display: none;
+    }
+
+    .div-desktop-l {
+        padding-right: 32px;
+        padding-left: 32px;;
+    }
+
+    .img-desktop-l {
+        width: 100%;
     }
 }
 

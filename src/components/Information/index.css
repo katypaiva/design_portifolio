@@ -1,4 +1,31 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 350px) {
+    .div-text {
+        display:flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 64px;
+        padding-right: 24px;
+    }
+
+    .font-infor {
+        width: 80%;
+        font-size: 16px;
+        line-height: 20px;
+        color: #28282A;
+    }
+    
+    .div-text>p {
+        margin-top: 16px;
+    }
+
+    .div-text>p>a {
+        color: #28282A;
+        text-decoration: underline;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 351px) and (max-width: 600px) {
 
     .div-text {
         display:flex;
@@ -32,6 +59,46 @@
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1366px)  {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .div-text {
+        display:flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-top: 80px;
+        padding-right: 156px;
+    }
+
+    .font-infor {
+        font-size: 20px;
+        line-height: 24px;
+        color: #28282A;
+    }
+
+    .width-text {
+        width: 515px;
+    }
+
+    .div-text>p {
+        margin-top: 40px;
+    }
+
+    .div-text>p>a {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .div-text>p>a:hover {
+        font-size: 20px;
+        line-height: 24px;
+        color: #FF003D;
+    }
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1900px) {
     * {
         margin: 0px;
         padding: 0px;

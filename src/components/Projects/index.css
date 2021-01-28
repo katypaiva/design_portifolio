@@ -1,4 +1,43 @@
-@media only screen and (max-width: 600px) {
+
+
+@media only screen and (max-width: 350px) {
+    .project-container {
+        margin-top: 100px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .div-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .mobile-desable {
+        display: none;
+    }
+
+    .name-list {
+        align-self: flex-end;
+        order: 2;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #28282A;
+        margin-top: 16px;
+    }
+
+    .year-list {
+        order: 1;
+        font-size: 16px;
+        line-height: 20px;
+        color: #28282A;
+        margin-top: 20px;
+        text-align: end;
+    } 
+}
+
+@media only screen and (min-width: 351px) and (max-width: 600px) {
     .project-container {
         margin-top: 120px;
         padding: 16px;
@@ -7,13 +46,10 @@
     .div-list {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }
 
-    .type-list {
-        display: none;
-    }
-
-    .company-list {
+    .mobile-desable {
         display: none;
     }
 
@@ -29,7 +65,6 @@
 
     .year-list {
         order: 1;
-        margin-right: 41px;
         font-size: 20px;
         line-height: 24px;
         color: #28282A;
@@ -69,5 +104,44 @@
         font-size: 28px;
         line-height: 33px;
         color: #28282A;
+    }
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1900px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .project-container {
+        margin-top: 160px;
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+
+    .div-list {
+        display: flex;
+        padding-bottom: 24px;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 40px;
+
+    }
+
+    .display-project {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .project-font {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 38px;
+        color: #28282A;
+    }
+
+    .year-list {
+        font-weight: normal;
     }
 }

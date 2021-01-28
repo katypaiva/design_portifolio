@@ -3,7 +3,7 @@ import './index.css'
 
 export default function Menu(){
     return(
-        <div className="tablet-disable">
+        <div className="disable">
             <input type="checkbox" className="tablet-disable" id="check" />
             <label className= "tablet-disable" for="check" >
                 <div className="menu-button tablet-disable">

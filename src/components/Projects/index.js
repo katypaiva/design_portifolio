@@ -37,17 +37,17 @@ export default function Projects(props) {
                         {arr.map(item => { 
                             return (
                                 <div className="div-list">
-                                    <div className="display-project">
-                                        <p className="type-list">{item.type}</p>
+                                    <div className="display-project mobile-desable">
+                                        <p className="type-list project-font">{item.type}</p>
                                     </div>
-                                    <div className="display-project">
-                                        <p className="company-list">{item.company}</p>
+                                    <div className="display-project mobile-desable">
+                                        <p className="company-list project-font">{item.company}</p>
                                     </div>
-                                    <div className="display-project">
-                                        <p className="name-list">{item.name}</p>
+                                    <div className="display-project ">
+                                        <p className="name-list project-font">{item.name}</p>
                                     </div>
-                                    <div className="display-project">
-                                        <p className="year-list">{item.year}</p>
+                                    <div className="display-project ">
+                                        <p className="year-list project-font">{item.year}</p>
                                     </div>
                                 </div>
                             )

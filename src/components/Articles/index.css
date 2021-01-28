@@ -1,12 +1,57 @@
-@media only screen and (max-width: 600px) {
-    .div-article>div>h2 {
-        font-size: 56px;
-        line-height: 67px;
+* {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont;
+}
+
+@media only screen and (max-width: 350px) {
+
+    .div-article {
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-top: 100px;
+    }
+
+    .text-bio {
+        font-size: 16px;
+        line-height: 20px;
         color: #28282A;
-        border-bottom: 1px solid #28282A;
+        margin-top: 32px;
+        margin-bottom: 40PX;
+    }
+    .data-div {
+        border-top: 1px solid #28282A;
+        padding-top: 16px;
         padding-bottom: 16px;
     }
 
+    .link {
+        text-decoration: none;
+        color: #28282A;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        color: #28282A;
+    }
+
+    .medium-btn {
+        background-color: #EDEAE4;
+        border: 1px solid #28282A;
+        box-sizing: border-box;
+        width: 100%;
+        height: 56px;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        color: #28282A;
+        margin-top: 32px;
+    }
+
+    .mobile-disable {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 351px) and (max-width: 600px) {
+    
     .div-article {
         padding-left: 16px;
         padding-right: 16px;
@@ -19,7 +64,6 @@
         color: #28282A;
         margin-top: 40px;
         margin-bottom: 56PX;
-        width: 330px;
     }
     .data-div {
         border-top: 1px solid #28282A;
@@ -55,12 +99,6 @@
     }
 
 }
-
-* {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont;
-}
-
-
 
 @media only screen and (min-width: 601px) and (max-width: 1366px)  {
 
@@ -131,10 +169,74 @@
         color: #fff;
     }
 
+}
 
+@media only screen and (min-width: 1367px) and (max-width: 1900px) {
+    * {
+        margin: 0px;
+        padding:0px;
+    }
 
+    .div-article {
+        padding-top: 160px;
+        padding-right: 32px;
+        padding-left: 32px;
+    }
 
+    .display {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
+    .display>div {
+        margin-top: 40px;
+    }
 
+    .font-article {
+        font-size: 20px;
+        line-height: 24px;
+        color: #28282A;
+    }
 
+    .text-bio {
+        width: 723px;
+        margin-bottom: 64px;
+    }
+
+    .data-div {
+        width: 800px;
+        border-top: 1px solid #28282A;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .link {
+        text-decoration: none;
+        color: #28282A;
+        font-weight: 600;
+    }
+
+    .link:hover {
+        color: #FF003D
+    }
+
+    .medium-btn {
+        width: 400px;
+        margin-top: 43%;
+        height: 87px;
+        border: 1px solid #28282A;
+        font-weight: 600;
+        font-size: 24px;
+        background: #EDEAE4;
+        color: #28282A;
+        cursor: pointer;
+        outline: none;
+    }
+
+    .medium-btn:hover {
+        background: #FF003D;
+        border: #FF003D;
+        color: #fff;
+    } 
 }

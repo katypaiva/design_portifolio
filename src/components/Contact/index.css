@@ -1,4 +1,69 @@
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 350px) {
+    .contact-container {
+        height: 330px;
+        margin-top: 64px;
+        background: #F72557;
+        padding-top: 72px;
+        padding-left: 26px;
+    }
+
+    .contact-p {
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+
+    .p-info {
+        font-size: 40px;
+        line-height: 57px;
+    }
+
+    .p-under-info {
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 8px;
+    }
+
+    .form-contact {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 48px;
+        width: 90%;
+        border-bottom: 2px solid #fff;
+    }
+
+    .form-contact>input {
+        outline: none;
+        background-color: transparent;
+        border: none;
+        width: 70%;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color:#fff
+    }
+
+    .form-contact>input::placeholder {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FF98B1;
+    }
+
+    .form-contact>button {
+        outline: none;
+        background-color: transparent;
+        border: none;
+    }
+
+    .contact-svg {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+/* MOBILE MAX-600 */
+@media only screen and (min-width: 351px) and (max-width: 600px) {
     .contact-container {
         height: 330px;
         margin-top: 64px;
@@ -31,11 +96,17 @@
         border-bottom: 2px solid #fff;
     }
 
+
+
     .form-contact>input {
         outline: none;
         background-color: transparent;
         border: none;
         width: 70%;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color:#fff
     }
 
     .form-contact>input::placeholder {
@@ -50,4 +121,154 @@
         background-color: transparent;
         border: none;
     }
+}
+
+/* TELA DE 600-1366 */
+@media only screen and (min-width: 600px) and (max-width: 1366px)  {
+
+    .contact-container {
+        height: 775px;
+        margin-top: 64px;
+        background: #F72557;
+        padding-top: 96px;
+        padding-left: 156px;
+    }
+
+    .contact-p {
+        color: #FFFFFF;
+        font-weight: 600;
+    }
+
+    .p-info {
+        font-size: 104px;
+        line-height: 124px;
+    }
+
+    .wrap{
+        display: none;
+    }
+
+    .p-under-info {
+        font-size: 48px;
+        line-height: 57px;
+        margin-top: 8px;
+
+    }
+    
+
+    .form-contact {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 93px;
+        width: 86%;
+        border-bottom: 2px solid #fff;
+    }
+
+    .form-contact>input {
+        text-size-adjust: 60px;
+        outline: none;
+        background-color: transparent;
+        border: none;
+        width: 70%;
+        color:#fff;
+        font-size: 64px;
+    }
+
+    .form-contact>input::placeholder {
+        font-weight: 500;
+        font-size: 64px;
+        color: #FF98B1;
+    }
+
+    .form-contact>button {
+        outline: none;
+        background-color: transparent;
+        border: none;
+        height: 45px;
+    }
+
+    .contact-svg {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+/* TELA DE 1367-1900 */
+@media only screen and (min-width: 1367px) and (max-width: 1900px) {
+
+    .contact-container {
+        height: 775px;
+        margin-top: 160px;
+        background: #F72557;
+        padding-top: 96px;
+        padding-left: 156px;
+        scroll-padding: 1px;;
+    }
+
+    ::-webkit-scrollbar {
+        width:5px;
+        height: 10px;
+        }
+         
+        /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
+        ::-webkit-scrollbar-track {
+        background:#333;
+        }
+
+    .contact-p {
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+
+    .p-info {
+        font-size: 128px;
+        line-height: 153px;
+    }
+
+    .wrap{
+        display: none;
+    }
+
+    .p-under-info {
+        font-size: 48px;
+        line-height: 57px;
+        margin-top: 8px;
+
+    }
+
+    .form-contact {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 157px;
+        width: 90%;
+        border-bottom: 2px solid #fff;
+    }
+
+    .form-contact>input {
+        outline: none;
+        background-color: transparent;
+        border: none;
+        width: 90%;
+        color:#fff;
+        font-size: 80px;
+    }
+
+    .form-contact>input::placeholder {
+        font-weight: 500;
+        font-size: 80px;
+        color: #FF98B1;
+    }
+
+    .form-contact>button {
+        outline: none;
+        background-color: transparent;
+        border: none;
+        height: 45px;
+    }
+
+    .contact-svg {
+        width: 56px;
+        height: 56px;
+    }
+   
 }

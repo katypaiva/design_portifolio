@@ -17,6 +17,9 @@ function Main () {
             <div className="div-desktop-m">
                 <img class="img-desktop-m" src={require('../../img/img-desktopM.svg')} />
             </div>
+            <div className="div-desktop-l">
+                <img class="img-desktop-l" src={require('../../img/img-l.svg')} />
+            </div>
             <Information id={"about"} />
             <Articles id={"article"} />
             <Projects id={"project"} />

@@ -1,6 +1,18 @@
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 350px) {
+    h2 {
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 67px;
+        color: #28282A;
+        border-bottom: 1px solid #28282A;
+        padding-bottom: 16px;
+    } 
+}
+
+@media only screen and (min-width: 351px) and (max-width: 600px) {
 
     h2 {
+        font-weight: normal;
         font-size: 56px;
         line-height: 67px;
         color: #28282A;
@@ -17,5 +29,18 @@
         color: #28282A;
         border-bottom: 1px solid #28282A;
         padding-bottom: 16px;
+        font-weight: normal;
+    }
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1900px) {
+    
+    h2 {
+        font-size: 88px;
+        line-height: 105px;
+        color: #28282A;
+        border-bottom: 1px solid #28282A;
+        padding-bottom: 16px;
+        font-weight: normal;
     }
 }
