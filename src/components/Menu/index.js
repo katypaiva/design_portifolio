@@ -7,7 +7,7 @@ export default function Menu(){
             <input type="checkbox" className="tablet-disable" id="check" />
             <label className= "tablet-disable" for="check" >
                 <div className="menu-button tablet-disable">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="change-size-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect className="change-svg" opacity="0.5" width="24" height="24" rx="12" fill="#28282A"/>
                         <rect className="change-svg" opacity="0.5" x="1.70068" y="13.7953" width="10.2992" height="10.2047" fill="#28282A"/>
                         <rect className="change-svg" opacity="0.5" x="12" y="13.7953" width="10.2992" height="10.2047" fill="#28282A"/>

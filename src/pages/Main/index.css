@@ -1,5 +1,7 @@
 * {
     font-family: -apple-system, system-ui, BlinkMacSystemFont;
+    margin: 0px;
+    padding: 0px;
 } 
 
 body {
@@ -7,141 +9,131 @@ body {
     flex-direction: column;
     justify-content: center;
     background: #EDEAE4;
-    font-family: -apple-system, system-ui, BlinkMacSystemFont;
     color: #28282A;
 }
 
-@media only screen and (max-width: 350px) {
+.div-mobile {
+    display: flex;
+    justify-content: center;
+}
 
-    * {
-        margin: 0px;
-        padding: 0px;
-    }
+.widthFull {
+    width: 100%;
+}
+
+@media only screen and (max-width: 350px) {
    
     .title {
-        font-style: normal;
         text-align: center;
         font-weight: 800;
         font-size: 56px;
         line-height: 76px;
-        color: #28282A;
-        font-family: -apple-system, system-ui, BlinkMacSystemFont;
-        width: 100%;
         margin-top: 24px;
     }
 
-    .div-mobile {
-        display: flex;
-        justify-content: center;
-    }
-
-    .div-desktop-m {
+    .display-ml{
         display: none;
     }
-
-    .div-desktop-l {
-        display: none;
-    }
-
-    .img-mobile {
-        width: 100%;
-    }
-
 }
  
 @media only screen and (min-width: 351px) and (max-width: 400px) {
 
-    * {
-        margin: 0px;
-        padding: 0px;
-    }
-   
     .title {
-        font-style: normal;
         text-align: center;
         font-weight: 800;
         font-size: 64px;
         line-height: 76px;
-        color: #28282A;
-        font-family: -apple-system, system-ui, BlinkMacSystemFont;
-        width: 100%;
         margin-top: 24px;
     }
 
-    .div-mobile {
-        display: flex;
-        justify-content: center;
-    }
-
-    .div-desktop-m {
+    .display-ml{
         display: none;
     }
-
-    .div-desktop-l {
-        display: none;
-    }
-
-    .img-mobile {
-        width: 100%;
-    }
-
 }
 
-@media only screen and (min-width: 401px) and (max-width: 600px) {
-
-    * {
-        margin: 0px;
-        padding: 0px;
-    }
+@media only screen and (min-width: 401px) and (max-width: 539px) {
    
     .title {
-        font-style: normal;
         text-align: center;
         font-weight: 800;
         font-size: 72px;
         line-height: 76px;
-        color: #28282A;
-        font-family: -apple-system, system-ui, BlinkMacSystemFont;
-        width: 100%;
         margin-top: 24px;
     }
 
-    .div-mobile {
-        display: flex;
-        justify-content: center;
-    }
-
-    .div-desktop-m {
+    .display-ml{
         display: none;
-    }
-
-    .div-desktop-l {
-        display: none;
-    }
-
-    .img-mobile {
-        width: 100%;
     }
 
 }
 
-@media only screen and (min-width: 600px) and (max-width: 1366px)  {
-    .div-mobile{
-        display: none;
+@media only screen and (min-width: 540px) and (max-width: 600px) {
+
+    .title {
+        text-align: center;
+        font-weight: 800;
+        font-size: 94px;
+        line-height: 99px;
+        margin-top: 24px;
     }
 
-    .div-desktop-l {
+    .display-ml{
         display: none;
     }
+}
 
+@media only screen and (min-width: 600px) and (max-width: 790px)  {
+
+    .title {
+        text-align: center;
+        font-weight: 800;
+        font-size: 134px;
+        line-height: 139px;
+        margin-top: 24px;
+    }
+
+    .display-ml{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 791px) and (max-width: 1000px)  {
+   
+    .title {
+        text-align: center;
+        font-weight: 800;
+        font-size: 94px;
+        line-height: 99px;
+        margin-top: 24px;
+    }
+
+    .display-ml{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1025px)  {
+   
+    .title {
+        text-align: center;
+        font-weight: 800;
+        font-size: 178px;
+        line-height: 183px;
+        margin-top: 48px;
+    }
+    .display-ml {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1026px) and (max-width: 1366px)  {
+    .screen-disable{
+        display: none;
+    }
 
     .div-desktop-m {
         padding-left: 32px;
         padding-right: 32px;
-    }
-
-    .img-desktop-m {
-        width: 100%;
     }
 
     .title {
@@ -149,8 +141,11 @@ body {
         font-size: 237px;
         line-height: 283px;
         text-align: center;
-        color: #28282A;
         margin-top: 35px;
+    }
+
+    .div-desktop-l{
+        display: none;
     }
 }
 
@@ -160,26 +155,17 @@ body {
         font-weight: 800;
         font-size: 280px;
         line-height: 280px;
-        color: #28282A;
-        width: 100%;
         text-align: center;
 
     }
 
-    .div-mobile{
-        display: none;
-    }
-    .div-desktop-m {
+    .display-mm{
         display: none;
     }
 
     .div-desktop-l {
         padding-right: 32px;
         padding-left: 32px;;
-    }
-
-    .img-desktop-l {
-        width: 100%;
     }
 }
 

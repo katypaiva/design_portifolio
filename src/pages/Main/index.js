@@ -11,14 +11,14 @@ function Main () {
         <div className="main">
             <Navbar  aboutHref={"#about"} articleHref={"#article"} projectHref={"#project"} contactHref={"#contact"}/>
             <h1 class="title">Flávio Pires</h1>
-            <div className="div-mobile">
-                <img class="img-mobile" src={require('../../img/spolith.svg')} />
+            <div className="div-mobile display-mm">
+                <img class="img-mobile widthFull" src={require('../../img/spolith.svg')} />
             </div>
-            <div className="div-desktop-m">
-                <img class="img-desktop-m" src={require('../../img/img-desktopM.svg')} />
+            <div className="div-desktop-m display-mm display-ml">
+                <img class="img-desktop-m widthFull" src={require('../../img/img-desktopM.svg')} />
             </div>
-            <div className="div-desktop-l">
-                <img class="img-desktop-l" src={require('../../img/img-l.svg')} />
+            <div className="div-desktop-l display-ml">
+                <img class="img-desktop-l widthFull" src={require('../../img/img-l.svg')} />
             </div>
             <Information id={"about"} />
             <Articles id={"article"} />

@@ -1,5 +1,4 @@
 
-
 @media only screen and (max-width: 350px) {
     .project-container {
         margin-top: 100px;
@@ -37,7 +36,7 @@
     } 
 }
 
-@media only screen and (min-width: 351px) and (max-width: 600px) {
+@media only screen and (min-width: 351px) and (max-width: 539px) {
     .project-container {
         margin-top: 120px;
         padding: 16px;
@@ -72,42 +71,112 @@
     } 
 }
 
-@media only screen and (min-width: 600px) and (max-width: 1366px)  {
-    * {
-        margin: 0px;
-        padding: 0px;
-    }
-
+@media only screen and (min-width: 540px) and (max-width: 600px) { 
     .project-container {
-        margin-top: 160px;
-        padding-right: 32px;
-        padding-left: 32px;
+        margin-top: 120px;
+        padding: 16px;
     }
 
     .div-list {
         display: flex;
-        padding-bottom: 24px;
         flex-direction: row;
         justify-content: space-between;
-        margin-top: 40px;
-
     }
 
-    .display-project {
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
+    .mobile-desable {
+        display: none;
     }
 
-    .div-list>div>p {
+    .name-list {
+        align-self: flex-end;
+        order: 2;
         font-weight: 600;
-        font-size: 28px;
-        line-height: 33px;
+        font-size: 24px;
+        line-height: 29px;
         color: #28282A;
+        margin-top: 16px;
+    }
+
+    .year-list {
+        order: 1;
+        font-size: 20px;
+        line-height: 24px;
+        color: #28282A;
+        margin-top: 21px;
     }
 }
 
-@media only screen and (min-width: 1367px) and (max-width: 1900px) {
+@media only screen and (min-width: 601px) and (max-width: 790px) { 
+    .project-container {
+        margin-top: 120px;
+        padding: 24px;
+    }
+
+    .div-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .mobile-desable {
+        display: none;
+    }
+
+    .name-list {
+        align-self: flex-end;
+        order: 2;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 37px;
+        color: #28282A;
+        margin-top: 24px;
+    }
+
+    .year-list {
+        order: 1;
+        font-size: 30px;
+        line-height: 35px;
+        color: #28282A;
+        margin-top: 21px;
+    }
+}
+
+@media only screen and (min-width: 791px) and (max-width: 1025px)  {
+    .project-container {
+        margin-top: 120px;
+        padding: 24px;
+    }
+
+    .div-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .mobile-desable {
+        display: none;
+    }
+
+    .name-list {
+        align-self: flex-end;
+        order: 2;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 45px;
+        color: #28282A;
+        margin-top: 24px;
+    }
+
+    .year-list {
+        order: 1;
+        font-size: 32px;
+        line-height: 37px;
+        color: #28282A;
+        margin-top: 21px;
+    }
+}
+
+@media only screen and (min-width: 1026px) and (max-width: 1900px) {
     * {
         margin: 0px;
         padding: 0px;
