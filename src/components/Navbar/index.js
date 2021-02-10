@@ -5,7 +5,7 @@ import './index.css'
 export default function Navbar(props) {
     return (
         <div class="container">
-            <p class="p-name font">Flávio Pires</p>
+            <p class="p-name font">FlÁVIO PIRES</p>
             <Menu />
             <div className="mobile-disable links">
                 <a className="about-href font" href={props.aboutHref}>Sobre, </a>

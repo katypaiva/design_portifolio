@@ -14,20 +14,6 @@ body {
     justify-content: space-between;
 }
 
-.p-name {
-    text-transform: uppercase;
-}
-
-.links>a {
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.location {
-    text-align: right;
-}
-
 @media only screen and (max-width: 600px) {
 
     .mobile-disable{
@@ -38,7 +24,6 @@ body {
         font-weight: 600;
         font-size: 20px;
         line-height: 24px;
-        text-transform: uppercase;
         
     }
 
@@ -57,7 +42,6 @@ body {
         font-weight: 600;
         font-size: 32px;
         line-height: 36px;
-        color: #181818;
     }
 
     .container {
@@ -66,13 +50,11 @@ body {
     }
 }
 
-
 @media only screen and (min-width: 791px) and (max-width: 1022px)  {
 
     .container {
-        padding-top: 32px;
-        padding-right: 32px;
-        padding-left: 32px;
+        padding: 32PX;
+        padding-bottom: 0px;
     }
 
     .font {
@@ -85,9 +67,8 @@ body {
 @media only screen and (min-width: 1023px) and (max-width: 1366px)  {
 
     .container {
-        padding-top: 32px;
-        padding-right: 32px;
-        padding-left: 32px;
+        padding: 32PX;
+        padding-bottom: 0px;
     }
 
     .mobile-disable{
@@ -102,17 +83,11 @@ body {
     }
 }
 
-@media only screen and (min-width: 1367px) and (max-width: 1900px) {
+@media only screen and (min-width: 1367px) {
 
     .container {
-        padding-top: 32px;
-        padding-right: 32px;
-        padding-left: 32px;
-        margin-bottom: 48px;
-    }
-
-    .mobile-disable {
-        display: none;
+        padding: 32px;
+        padding-bottom: 48px;
     }
 
     .font {
@@ -120,4 +95,16 @@ body {
         font-size: 20px;
         line-height: 24px;
     }
+
+    .links>a {
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        color: #28282A;
+    }
+
+    .location {
+        text-align: right;
+    }
+   
 }

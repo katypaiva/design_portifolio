@@ -41,14 +41,14 @@ export default function Articles(props) {
                     {arrAticles.map(item => {
                         return(
                             <div className="display data-div">
-                                <a className="link font-article" href={item.link} target="_blank">{item.title}</a>
+                                <a className="link font-article font-weight" href={item.link} target="_blank">{item.title}</a>
                                 <p className="mobile-disable font-article">{item.year}</p>
                             </div>
                         )
                     })}
                 </div>
                 <a href="https://medium.com/@iamflaviopires" target="_blank">
-                    <button className="medium-btn">Ver perfil no medium</button>
+                    <button className="medium-btn font-weight font-article">Ver perfil no medium</button>
                 </a>
             </div>
         </div>

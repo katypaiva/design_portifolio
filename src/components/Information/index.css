@@ -1,85 +1,80 @@
-@media only screen and (max-width: 350px) {
-    .div-text {
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    color: #28282A;
+}
+
+.div-text {
         display:flex;
         flex-direction: column;
         align-items: flex-end;
+}
+
+.div-text>p>a {
+    color: #28282A;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 350px) {
+    .div-text {
         margin-top: 64px;
         padding-right: 24px;
     }
 
     .font-infor {
         width: 80%;
+    }
+
+    .font-size {
         font-size: 16px;
         line-height: 20px;
-        color: #28282A;
     }
     
     .div-text>p {
         margin-top: 16px;
-    }
-
-    .div-text>p>a {
-        color: #28282A;
-        text-decoration: underline;
-        font-size: 16px;
     }
 }
 
 @media only screen and (min-width: 351px) and (max-width: 539px) {
 
     .div-text {
-        display:flex;
-        flex-direction: column;
-        align-items: flex-end;
-        margin-top: 64px;
-        padding-right: 30px;
-    }
-
-    .font-infor {
-        width: 246px;
-        font-size: 20px;
-        line-height: 24px;
-        color: #28282A;
-    }
-
-    .info-text {
-        height: 288px;
-     
-    }
-    .div-text>p {
-        margin-top: 16px;
-    }
-
-    .div-text>p>a {
-        color: #28282A;
-        text-decoration: underline;
-        font-size: 20px;
-        line-height: 24px;
-    }
-}
-
-@media only screen and (min-width: 540px) and (max-width: 600px) {
-    .div-text {
-        display:flex;
-        flex-direction: column;
-        align-items: flex-end;
         margin-top: 64px;
         padding-right: 30px;
     }
 
     .font-infor {
         width: 60%;
-        font-size: 24px;
-        line-height: 29px;
-        color: #28282A;
+        
+    }
+
+    .font-size {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .div-text>p {
+        margin-top: 16px;
+    }
+}
+
+@media only screen and (min-width: 540px) and (max-width: 600px) {
+    .div-text {
+        margin-top: 64px;
+        padding-right: 30px;
+    }
+
+    .font-infor {
+        width: 60%;
     }
     .div-text>p {
         margin-top: 16px;
     }
 
-    .div-text>p>a {
-        color: #28282A;
-        text-decoration: underline;
+    .font-size {
         font-size: 24px;
         line-height: 29px;
     }
@@ -87,26 +82,18 @@
 
 @media only screen and (min-width: 601px) and (max-width: 790px) {
     .div-text {
-        display:flex;
-        flex-direction: column;
-        align-items: flex-end;
         margin-top: 80px;
         padding-right: 40px;
     }
 
     .font-infor {
-        width: 50%;
-        font-size: 30px;
-        line-height: 36px;
-        color: #28282A;
+        width: 60%;
     }
     .div-text>p {
         margin-top: 32px;
     }
 
-    .div-text>p>a {
-        color: #28282A;
-        text-decoration: underline;
+    .font-size {
         font-size: 30px;
         line-height: 38px;
     }
@@ -114,26 +101,19 @@
 
 @media only screen and (min-width: 791px) and (max-width: 1022px)  {
     .div-text {
-        display:flex;
-        flex-direction: column;
-        align-items: flex-end;
         margin-top: 80px;
         padding-right: 40px;
     }
 
     .font-infor {
         width: 50%;
-        font-size: 30px;
-        line-height: 36px;
         color: #28282A;
     }
     .div-text>p {
         margin-top: 32px;
     }
 
-    .div-text>p>a {
-        color: #28282A;
-        text-decoration: underline;
+    .font-size {
         font-size: 30px;
         line-height: 38px;
     }
@@ -141,49 +121,34 @@
 
 @media only screen and (min-width: 1023px) and (max-width: 1366px)  {
     .div-text {
-        display:flex;
-        flex-direction: column;
-        align-items: flex-end;
         margin-top: 80px;
         padding-right: 60px;
     }
 
     .font-infor {
         width: 50%;
-        font-size: 30px;
-        line-height: 36px;
-        color: #28282A;
-    }
-    .div-text>p {
-        margin-top: 32px;
     }
 
-    .div-text>p>a {
-        color: #28282A;
-        text-decoration: underline;
+    .font-size {
         font-size: 30px;
         line-height: 38px;
+    }
+
+    .div-text>p {
+        margin-top: 32px;
     }
 }
 
 @media only screen and (min-width: 1367px) and (max-width: 1900px) {
-    * {
-        margin: 0px;
-        padding: 0px;
-    }
 
     .div-text {
-        display:flex;
-        flex-direction: column;
-        align-items: flex-end;
         padding-top: 80px;
         padding-right: 156px;
     }
 
-    .font-infor {
-        font-size: 20px;
-        line-height: 24px;
-        color: #28282A;
+    .font-size {
+        font-size: 24px;
+        line-height: 32px;
     }
 
     .width-text {
@@ -194,14 +159,7 @@
         margin-top: 40px;
     }
 
-    .div-text>p>a {
-        text-decoration: underline;
-        cursor: pointer;
-    }
-
     .div-text>p>a:hover {
-        font-size: 20px;
-        line-height: 24px;
         color: #FF003D;
     }
 }

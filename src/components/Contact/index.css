@@ -1,16 +1,44 @@
+.contact-p {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.contact-container {
+    background: #F72557;
+}
+
+.form-contact {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #fff;
+}
+
+.form-contact>input {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-weight: 500;
+    color:#fff
+}
+
+.form-contact>input::placeholder {
+    color: #FF98B1;
+    font-weight: 500;
+}
+
+.form-contact>button {
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+
 
 @media only screen and (max-width: 350px) {
     .contact-container {
         height: 330px;
         margin-top: 64px;
-        background: #F72557;
         padding-top: 72px;
         padding-left: 26px;
-    }
-
-    .contact-p {
-        color: #FFFFFF;
-        font-weight: bold;
     }
 
     .p-info {
@@ -25,35 +53,19 @@
     }
 
     .form-contact {
-        display: flex;
-        justify-content: space-between;
         margin-top: 48px;
         width: 90%;
-        border-bottom: 2px solid #fff;
     }
 
     .form-contact>input {
-        outline: none;
-        background-color: transparent;
-        border: none;
         width: 70%;
-        font-weight: 500;
         font-size: 16px;
         line-height: 20px;
-        color:#fff
     }
 
     .form-contact>input::placeholder {
-        font-weight: 500;
         font-size: 16px;
         line-height: 20px;
-        color: #FF98B1;
-    }
-
-    .form-contact>button {
-        outline: none;
-        background-color: transparent;
-        border: none;
     }
 
     .contact-svg {
@@ -62,19 +74,12 @@
     }
 }
 
-/* MOBILE MAX-600 */
 @media only screen and (min-width: 351px) and (max-width: 600px) {
     .contact-container {
         height: 330px;
         margin-top: 64px;
-        background: #F72557;
         padding-top: 72px;
         padding-left: 26px;
-    }
-
-    .contact-p {
-        color: #FFFFFF;
-        font-weight: bold;
     }
 
     .p-info {
@@ -89,37 +94,19 @@
     }
 
     .form-contact {
-        display: flex;
-        justify-content: space-between;
         margin-top: 48px;
         width: 86%;
-        border-bottom: 2px solid #fff;
     }
 
-
-
     .form-contact>input {
-        outline: none;
-        background-color: transparent;
-        border: none;
         width: 70%;
-        font-weight: 500;
         font-size: 20px;
         line-height: 24px;
-        color:#fff
     }
 
     .form-contact>input::placeholder {
-        font-weight: 500;
         font-size: 20px;
         line-height: 24px;
-        color: #FF98B1;
-    }
-
-    .form-contact>button {
-        outline: none;
-        background-color: transparent;
-        border: none;
     }
 }
 
@@ -127,14 +114,8 @@
     .contact-container {
         height: 430px;
         margin-top: 96px;
-        background: #F72557;
         padding-top: 72px;
         padding-left: 26px;
-    }
-
-    .contact-p {
-        color: #FFFFFF;
-        font-weight: bold;
     }
 
     .p-info {
@@ -149,35 +130,19 @@
     }
 
     .form-contact {
-        display: flex;
-        justify-content: space-between;
         margin-top: 72px;
         width: 90%;
-        border-bottom: 2px solid #fff;
     }
 
     .form-contact>input {
-        outline: none;
-        background-color: transparent;
-        border: none;
         width: 80%;
-        font-weight: 500;
         font-size: 32px;
         line-height: 36px;
-        color:#fff
     }
 
     .form-contact>input::placeholder {
-        font-weight: 500;
         font-size: 32px;
         line-height: 36px;
-        color: #FF98B1;
-    }
-
-    .form-contact>button {
-        outline: none;
-        background-color: transparent;
-        border: none;
     }
 
     .contact-svg {
@@ -190,14 +155,8 @@
     .contact-container {
         height: 650px;
         margin-top: 96px;
-        background: #F72557;
         padding-top: 72px;
         padding-left: 26px;
-    }
-
-    .contact-p {
-        color: #FFFFFF;
-        font-weight: bold;
     }
 
     .p-info {
@@ -212,35 +171,19 @@
     }
 
     .form-contact {
-        display: flex;
-        justify-content: space-between;
         margin-top: 96px;
         width: 90%;
-        border-bottom: 2px solid #fff;
     }
 
     .form-contact>input {
-        outline: none;
-        background-color: transparent;
-        border: none;
         width: 90%;
-        font-weight: 500;
         font-size: 56px;
         line-height: 62px;
-        color:#fff
     }
 
     .form-contact>input::placeholder {
-        font-weight: 500;
         font-size: 56px;
         line-height: 62px;
-        color: #FF98B1;
-    }
-
-    .form-contact>button {
-        outline: none;
-        background-color: transparent;
-        border: none;
     }
 
     .contact-svg {
@@ -249,19 +192,12 @@
     }
 }
 
-/* TELA DE 600-1366 */
 @media only screen and (min-width: 791px) and (max-width: 1025px)  {
     .contact-container {
         height: 750px;
         margin-top: 96px;
-        background: #F72557;
         padding-top: 82px;
         padding-left: 56px;
-    }
-
-    .contact-p {
-        color: #FFFFFF;
-        font-weight: bold;
     }
 
     .p-info {
@@ -276,35 +212,19 @@
     }
 
     .form-contact {
-        display: flex;
-        justify-content: space-between;
         margin-top: 120px;
         width: 90%;
-        border-bottom: 2px solid #fff;
     }
 
     .form-contact>input {
-        outline: none;
-        background-color: transparent;
-        border: none;
         width: 90%;
-        font-weight: 500;
         font-size: 56px;
         line-height: 62px;
-        color:#fff
     }
 
     .form-contact>input::placeholder {
-        font-weight: 500;
         font-size: 56px;
         line-height: 62px;
-        color: #FF98B1;
-    }
-
-    .form-contact>button {
-        outline: none;
-        background-color: transparent;
-        border: none;
     }
 
     .contact-svg {
@@ -313,13 +233,11 @@
     }
 }
 
-/* TELA DE 1367-1900 */
-@media only screen and (min-width: 1026px) and (max-width: 1900px) {
+@media only screen and (min-width: 1026px) {
 
     .contact-container {
         height: 775px;
         margin-top: 160px;
-        background: #F72557;
         padding-top: 96px;
         padding-left: 156px;
         scroll-padding: 1px;;
@@ -328,16 +246,10 @@
     ::-webkit-scrollbar {
         width:5px;
         height: 10px;
-        }
-         
-        /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
-        ::-webkit-scrollbar-track {
-        background:#333;
-        }
+    }
 
-    .contact-p {
-        color: #FFFFFF;
-        font-weight: bold;
+    ::-webkit-scrollbar-track {
+        background:#333;
     }
 
     .p-info {
@@ -357,32 +269,20 @@
     }
 
     .form-contact {
-        display: flex;
-        justify-content: space-between;
         margin-top: 157px;
         width: 90%;
-        border-bottom: 2px solid #fff;
     }
 
     .form-contact>input {
-        outline: none;
-        background-color: transparent;
-        border: none;
         width: 90%;
-        color:#fff;
         font-size: 80px;
     }
 
     .form-contact>input::placeholder {
-        font-weight: 500;
         font-size: 80px;
-        color: #FF98B1;
     }
 
     .form-contact>button {
-        outline: none;
-        background-color: transparent;
-        border: none;
         height: 45px;
     }
 

@@ -1,5 +1,31 @@
 * {
     font-family: -apple-system, system-ui, BlinkMacSystemFont;
+    margin: 0px;
+    padding:0px;
+}
+
+body {
+    color: #28282A;
+}
+
+.data-div {
+    border-top: 1px solid #28282A;
+}
+
+.font-weight {
+    font-weight: 600;
+}
+
+.link {
+    text-decoration: none;
+    color: #28282A;
+}
+
+.medium-btn {
+    background-color: #EDEAE4;
+    border: 1px solid #28282A;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 @media only screen and (max-width: 350px) {
@@ -11,37 +37,23 @@
     }
 
     .text-bio {
-        font-size: 16px;
-        line-height: 20px;
-        color: #28282A;
         margin-top: 32px;
         margin-bottom: 40PX;
     }
+
+    .font-article {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
     .data-div {
-        border-top: 1px solid #28282A;
         padding-top: 16px;
         padding-bottom: 16px;
     }
 
-    .link {
-        text-decoration: none;
-        color: #28282A;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 19px;
-        color: #28282A;
-    }
-
     .medium-btn {
-        background-color: #EDEAE4;
-        border: 1px solid #28282A;
-        box-sizing: border-box;
         width: 100%;
         height: 56px;
-        font-weight: 600;
-        font-size: 16px;
-        text-align: center;
-        color: #28282A;
         margin-top: 32px;
     }
 
@@ -58,39 +70,24 @@
         margin-top: 120px;
     }
 
-    .text-bio {
+    .font-article {
         font-size: 20px;
         line-height: 24px;
-        color: #28282A;
+    }
+
+    .text-bio {
         margin-top: 40px;
         margin-bottom: 56PX;
     }
+
     .data-div {
-        border-top: 1px solid #28282A;
         padding-top: 16px;
         padding-bottom: 16px;
     }
 
-    .link {
-        text-decoration: none;
-        color: #28282A;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 19px;
-        color: #28282A;
-    }
-
     .medium-btn {
-        background-color: #EDEAE4;
-        border: 1px solid #28282A;
-        box-sizing: border-box;
         width: 100%;
         height: 64px;
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 24px;
-        text-align: center;
-        color: #28282A;
         margin-top: 38px;
     }
 
@@ -107,39 +104,23 @@
         margin-top: 124px;
     }
 
+    .font-article {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
     .text-bio {
-        font-size: 24px;
-        line-height: 29px;
-        color: #28282A;
         margin-top: 40px;
         margin-bottom: 56PX;
     }
     .data-div {
-        border-top: 1px solid #28282A;
         padding-top: 16px;
         padding-bottom: 16px;
     }
 
-    .link {
-        text-decoration: none;
-        color: #28282A;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 29px;
-        color: #28282A;
-    }
-
     .medium-btn {
-        background-color: #EDEAE4;
-        border: 1px solid #28282A;
-        box-sizing: border-box;
         width: 100%;
         height: 64px;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 29px;
-        text-align: center;
-        color: #28282A;
         margin-top: 38px;
     }
 
@@ -155,39 +136,23 @@
         margin-top: 124px;
     }
 
-    .text-bio {
+    .font-article {
         font-size: 30px;
         line-height: 36px;
-        color: #28282A;
+    }
+
+    .text-bio {
         margin-top: 40px;
         margin-bottom: 56PX;
     }
     .data-div {
-        border-top: 1px solid #28282A;
         padding-top: 24px;
         padding-bottom: 24px;
     }
 
-    .link {
-        text-decoration: none;
-        color: #28282A;
-        font-weight: 600;
-        font-size: 28px;
-        line-height: 29px;
-        color: #28282A;
-    }
-
     .medium-btn {
-        background-color: #EDEAE4;
-        border: 1px solid #28282A;
-        box-sizing: border-box;
         width: 100%;
         height: 80px;
-        font-weight: 600;
-        font-size: 28px;
-        line-height: 29px;
-        text-align: center;
-        color: #28282A;
         margin-top: 48px;
     }
 
@@ -203,39 +168,23 @@
         margin-top: 124px;
     }
 
-    .text-bio {
+    .font-article {
         font-size: 30px;
         line-height: 36px;
-        color: #28282A;
+    }
+
+    .text-bio {
         margin-top: 40px;
         margin-bottom: 56PX;
     }
     .data-div {
-        border-top: 1px solid #28282A;
         padding-top: 24px;
         padding-bottom: 24px;
     }
 
-    .link {
-        text-decoration: none;
-        color: #28282A;
-        font-weight: 600;
-        font-size: 28px;
-        line-height: 29px;
-        color: #28282A;
-    }
-
     .medium-btn {
-        background-color: #EDEAE4;
-        border: 1px solid #28282A;
-        box-sizing: border-box;
         width: 100%;
         height: 80px;
-        font-weight: 600;
-        font-size: 28px;
-        line-height: 29px;
-        text-align: center;
-        color: #28282A;
         margin-top: 48px;
     }
 
@@ -245,10 +194,6 @@
 }
 
 @media only screen and (min-width: 1026px) and (max-width: 1900px) {
-    * {
-        margin: 0px;
-        padding:0px;
-    }
 
     .div-article {
         padding-top: 160px;
@@ -269,7 +214,6 @@
     .font-article {
         font-size: 20px;
         line-height: 24px;
-        color: #28282A;
     }
 
     .text-bio {
@@ -279,15 +223,8 @@
 
     .data-div {
         width: 800px;
-        border-top: 1px solid #28282A;
         padding-top: 16px;
         padding-bottom: 16px;
-    }
-
-    .link {
-        text-decoration: none;
-        color: #28282A;
-        font-weight: 600;
     }
 
     .link:hover {
@@ -298,11 +235,6 @@
         width: 400px;
         margin-top: 43%;
         height: 87px;
-        border: 1px solid #28282A;
-        font-weight: 600;
-        font-size: 24px;
-        background: #EDEAE4;
-        color: #28282A;
         cursor: pointer;
         outline: none;
     }
