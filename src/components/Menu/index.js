@@ -1,7 +1,17 @@
 import React from 'react'
 import './index.css'
+import $ from 'jquery'
 
 export default function Menu(){
+
+
+        $('#check').change(function() {
+            if ($('#check').is(":checked")) {
+              $('body').css('overflow','hidden');
+            } 
+          });    
+
+
     return(
         <div className="disable">
             <input type="checkbox" className="tablet-disable" id="check" />
