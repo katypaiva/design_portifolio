@@ -10,9 +10,9 @@ function Main () {
     return (
         <div className="main">
             <Navbar  aboutHref={"#about"} articleHref={"#article"} projectHref={"#project"} contactHref={"#contact"}/>
-            <h1 class="title">Flávio Pires</h1>
+            <h1 className="title">Flávio Pires</h1>
             <div className="div-mobile display-mm">
-                <img class="img-mobile widthFull" src={require('../../img/spolith.svg')} />
+                <img className="img-mobile widthFull" src={require('../../img/spolith.svg')} />
             </div>
             <div className="div-desktop-m display-mm display-ml">
                 <img class="img-desktop-m widthFull" src={require('../../img/img-desktopM.svg')} />

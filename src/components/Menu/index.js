@@ -4,13 +4,6 @@ import $ from 'jquery'
 
 export default function Menu(){
 
-
-        $('#check').change(function() {
-            if ($('#check').is(":checked")) {
-              $('body').css('overflow','hidden');
-            } 
-          });    
-
 //testeeeeeee
     return(
         <div className="disable">

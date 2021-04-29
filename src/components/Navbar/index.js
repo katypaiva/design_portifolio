@@ -13,7 +13,7 @@ export default function Navbar(props) {
                 <a className="project-href font" href={props.projectHref}>Projetos, </a>
                 <a className="contact-href font" href={props.contactHref}>Contato</a>
             </div>
-            <p class="mobile-disable font location">São Paulo, SP - Brasil</p>
+            <p className="mobile-disable font location">São Paulo, SP - Brasil</p>
         </div>
 
     )
