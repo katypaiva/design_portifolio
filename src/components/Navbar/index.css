@@ -8,11 +8,6 @@ body {
     color: #28282A;
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 
 @media only screen and (max-width: 600px) {
 
@@ -25,6 +20,10 @@ body {
         font-size: 20px;
         line-height: 24px;
         
+    }
+
+    .inline {
+        display: inline-block
     }
 
     .container {
@@ -55,6 +54,9 @@ body {
     .container {
         padding: 32PX;
         padding-bottom: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .font {
@@ -69,6 +71,9 @@ body {
     .container {
         padding: 32PX;
         padding-bottom: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .mobile-disable{
@@ -88,6 +93,9 @@ body {
     .container {
         padding: 32px;
         padding-bottom: 48px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .font {

@@ -50,7 +50,7 @@ export default function Projects(props) {
                                         <p className="year-list project-font">{item.year}</p>
                                     </div>
                                 </div>
-                            )
+                            ) 
                         })}
         </div>
     )

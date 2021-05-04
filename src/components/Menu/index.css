@@ -3,6 +3,7 @@
     .menu-button {
         position: absolute;
         right: 16px;
+        top: 32px;
         outline: none;
         border-radius: 100px;
         box-shadow: 0 0 0 0 transparent, 0 0 0 transparent;
@@ -16,6 +17,11 @@
     .menu-button:hover {
         box-shadow: 0 0 0 0px #000, 0 0 0 0px #000;
     }
+    
+
+    input:checked ~ body {
+       overflow: hidden;
+      }
 
     input:checked ~ label .menu-button {
         box-shadow: 0 0 0 130vw #000, 0 0 0 130vh #000;
@@ -38,7 +44,7 @@
 
     ul {
         position: absolute;
-        padding:16px;
+        padding:0px;
         padding-top: 10px;
         display: none;
         list-style: none;
@@ -128,8 +134,9 @@ body {
       } 
 
     ul {
-        position: absolute;
+        position: fixed;
         padding:16px;
+        order: 1;
         padding-top: 10px;
         display: none;
         list-style: none;
@@ -144,6 +151,7 @@ body {
         line-height: 76px;
         color: #FFF;
     }
+
 
     .about-href {
         color: #FF003D;
@@ -216,6 +224,7 @@ body {
     input:checked ~ ul {
         opacity: 1;
         display: block;
+        position: absolute
       } 
 
     ul {
