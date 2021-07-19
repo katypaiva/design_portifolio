@@ -14,19 +14,14 @@
         display: none;
     }
 
+
     .menu-button:hover {
         box-shadow: 0 0 0 0px #000, 0 0 0 0px #000;
     }
-    
-
-    input:checked ~ body {
-       overflow: hidden;
-      }
 
     input:checked ~ label .menu-button {
         box-shadow: 0 0 0 130vw #000, 0 0 0 130vh #000;
         background-color: #000;
-        overflow: hidden;
       }
 
       input:checked ~ label .change-svg {
